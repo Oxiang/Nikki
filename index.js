@@ -36,9 +36,6 @@ app.use(cookieParser(cookie_secret));
 // app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "client/build")));
 
-
-require('./routes/postings')(app);
-require('./routes/users')(app);
 // Import routes
 var usersRoute = require('./routes/users');
 var postingsRoute = require('./routes/postings');
