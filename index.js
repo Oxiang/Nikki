@@ -56,3 +56,7 @@ new webpack.ProvidePlugin({
   $: "jquery",
   jQuery: "jquery"
 }) 
+
+app.get('/', function (req, res) {
+  res.send('This is TestBot Server');
+});
