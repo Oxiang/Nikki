@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "webpack --mode production"
+    "build": "nodemon index.js"
   },
   "author": "Richard Xiang Qian Ong",
   "license": "ISC",
