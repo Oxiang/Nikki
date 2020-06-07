@@ -4,7 +4,7 @@
   "description": "Cloud Diary",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "nodemon index.js",
     "build": "webpack --mode production"
   },
   "author": "Richard Xiang Qian Ong",
